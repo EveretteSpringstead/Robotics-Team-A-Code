@@ -1,3 +1,16 @@
-/bin
-/build
-compile_commands.json
+# VEX build files
+build/
+bin/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/c_cpp_properties.json
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
